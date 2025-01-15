@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    color: #4A90E2;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4A90E2;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styling */
+button {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f1f1f1;
+    color: #4A90E2;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+tr:hover {
+    background-color: #e9f5ff;
+}
+
+/* Invoice Section Styling */
+.invoice-container {
+    margin-top: 40px;
+}
+
+.invoice {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.invoice h3 {
+    margin: 0;
+    color: #4A90E2;
+}
+
+.invoice p {
+    margin: 5px 0;
+}
+
+.status-paid {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+.status-draft {
+    color: #9E9E9E;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+}
